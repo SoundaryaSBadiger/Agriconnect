@@ -1,0 +1,1 @@
+<footer class='footer'>AgriConnect · Connecting farms, vendors and buyers · Java / Spring Boot / JSP / MySQL</footer>

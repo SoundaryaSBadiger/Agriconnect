@@ -1,0 +1,1 @@
+package com.agriconnect.repository; import com.agriconnect.model.AgriOrder; import org.springframework.data.jpa.repository.JpaRepository; import java.util.List; public interface OrderRepository extends JpaRepository<AgriOrder,Long>{List<AgriOrder> findByBuyerIdOrderByCreatedAtDesc(Long id); List<AgriOrder> findByProductFarmerIdOrderByCreatedAtDesc(Long id);}
